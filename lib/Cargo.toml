@@ -1,0 +1,8 @@
+[package]
+name = "electrust"
+version = "0.1.0"
+authors = ["Amyr Ahmady (iAmir) <hhm6@yahoo.com>"]
+
+[lib]
+name = "electrustlib"
+crate-type = ["dylib"]

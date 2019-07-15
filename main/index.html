@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Electrust</title>
+    </head>
+
+    <body>
+
+        <div>
+            <div>
+                <button type="button" id="fib" onclick="onButtonClick()">Click</button>
+            </div>
+            <div>Hello JustMichael</div>
+            <div id="result">
+            </div>
+        </div>
+
+        <script>
+            let ffi = require('ffi-napi');
+
+            let electrustlib = ffi.Library('../lib/target/debug/electrustlib.dll', {
+                show_emoji: ['string', []]
+            });
+
+            function onButtonClick() {
+                document.getElementById("result").innerHTML = electrustlib.show_emoji();;
+            }
+        </script>
+
+    </body>
+</html>

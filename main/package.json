@@ -1,0 +1,19 @@
+{
+  "name": "electrust",
+  "version": "0.1.0",
+  "description": "Electrust - Rust in Electron boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "./node_modules/.bin/electron-rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amyr Ahmady (iAmir) <hhm6@yahoo.com>",
+  "dependencies": {
+    "ffi-napi": "^2.4.3"
+  },
+  "devDependencies": {
+    "electron": "2.0.2",
+    "electron-rebuild": "^1.8.5"
+  }
+}
