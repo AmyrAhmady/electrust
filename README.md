@@ -31,3 +31,6 @@ or
 ```bash
 npm run start
 ```
+
+# Credits
+the cute emoticon is from https://codepen.io/jarnovanrhijn/pen/mmjwzJ
