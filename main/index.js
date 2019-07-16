@@ -18,7 +18,7 @@ function createWindow() {
     }));
 
     // disable electron dev menu
-    win.setMenu(null);
+    //win.setMenu(null);
 
     // Open the DevTools.
     // win.webContents.openDevTools();
